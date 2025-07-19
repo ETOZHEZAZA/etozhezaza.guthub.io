@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ETOZHEZAZA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: url('etozhezaza.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(8px);
+      padding: 40px 30px;
+      border-radius: 20px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      text-align: center;
+      font-size: 2.8rem;
+      font-weight: 600;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding-bottom: 20px;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-align: center;
+      padding: 14px 0;
+      border-radius: 12px;
+      color: white;
+      background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+      border: 1px solid rgba(255,255,255,0.2);
+      backdrop-filter: blur(4px);
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background: rgba(255, 255, 255, 0.85);
+      color: #111;
+      transform: scale(1.03);
+      box-shadow: 0 4px 20px rgba(255,255,255,0.2);
+    }
+
+    @media (max-width: 480px) {
+      header {
+        font-size: 2rem;
+      }
+
+      a {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>ETOZHEZAZA</header>
+    <nav>
+      <a href="https://twitch.tv/etozhezaza" target="_blank">TWITCH</a>
+      <a href="https://t.me/etozhezaza" target="_blank">TELEGRAM</a>
+      <a href="https://www.instagram.com/etozhezaza?igsh=MWlvODI4NGFtc21qaQ==" target="_blank">INSTAGRAM</a>
+      <a href="https://www.tiktok.com/@etozhezaza?_t=ZN-8xtGalZS3uA" target="_blank">TIK-TOK</a>
+      <a href="https://youtube.com/@etozhezaza777?si=Kw_ajUuVygMnGJiF" target="_blank">YOUTUBE</a>
+      <a href="https://www.donationalerts.com/r/etozhezaza" target="_blank">DONAT</a>
+      <a href="https://t.me/etozhezaza/168" target="_blank">РОЗЫГРЫШИ</a>
+    </nav>
+  </div>
+
+</body>
+</html>
